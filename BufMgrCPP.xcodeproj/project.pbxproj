@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA27D6FA1E5CFD64007CC0E7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA27D6F91E5CFD64007CC0E7 /* main.cpp */; };
+		FA27D73B1E5CFDDE007CC0E7 /* test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA27D7001E5CFDDE007CC0E7 /* test.cpp */; };
+		FA27D73C1E5CFDDE007CC0E7 /* lru_queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA27D7021E5CFDDE007CC0E7 /* lru_queue.cpp */; };
+		FA27D73D1E5CFDDE007CC0E7 /* bufmgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA27D7041E5CFDDE007CC0E7 /* bufmgr.cpp */; };
+		FA27D73E1E5CFDDE007CC0E7 /* frame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA27D7051E5CFDDE007CC0E7 /* frame.cpp */; };
+		FA27D73F1E5CFDDE007CC0E7 /* linkedframe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA27D70B1E5CFDDE007CC0E7 /* linkedframe.cpp */; };
+		FA27D7401E5CFDDE007CC0E7 /* libbtree.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA27D70E1E5CFDDE007CC0E7 /* libbtree.a */; };
+		FA27D7411E5CFDDE007CC0E7 /* libglobaldefs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA27D70F1E5CFDDE007CC0E7 /* libglobaldefs.a */; };
+		FA27D7421E5CFDDE007CC0E7 /* libjoins.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA27D7101E5CFDDE007CC0E7 /* libjoins.a */; };
+		FA27D7431E5CFDDE007CC0E7 /* libspacemgr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA27D7111E5CFDDE007CC0E7 /* libspacemgr.a */; };
+		FA27D7441E5CFDDE007CC0E7 /* libbufmgr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA27D7121E5CFDDE007CC0E7 /* libbufmgr.a */; };
+		FA27D7451E5CFDDE007CC0E7 /* bmtest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA27D7151E5CFDDE007CC0E7 /* bmtest.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA27D6F41E5CFD64007CC0E7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA27D6F61E5CFD64007CC0E7 /* BufMgrCPP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BufMgrCPP; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA27D6F91E5CFD64007CC0E7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FA27D7001E5CFDDE007CC0E7 /* test.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = test.cpp; path = BufMgrCPP/test.cpp; sourceTree = "<group>"; };
+		FA27D7011E5CFDDE007CC0E7 /* BufMgr1 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = BufMgr1; path = BufMgrCPP/BufMgr1; sourceTree = "<group>"; };
+		FA27D7021E5CFDDE007CC0E7 /* lru_queue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = lru_queue.cpp; path = BufMgrCPP/lru_queue.cpp; sourceTree = "<group>"; };
+		FA27D7031E5CFDDE007CC0E7 /* MINIBASE.DB */ = {isa = PBXFileReference; lastKnownFileType = file; name = MINIBASE.DB; path = BufMgrCPP/MINIBASE.DB; sourceTree = "<group>"; };
+		FA27D7041E5CFDDE007CC0E7 /* bufmgr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bufmgr.cpp; path = BufMgrCPP/bufmgr.cpp; sourceTree = "<group>"; };
+		FA27D7051E5CFDDE007CC0E7 /* frame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = frame.cpp; path = BufMgrCPP/frame.cpp; sourceTree = "<group>"; };
+		FA27D7061E5CFDDE007CC0E7 /* bufmgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bufmgr.h; path = BufMgrCPP/bufmgr.h; sourceTree = "<group>"; };
+		FA27D7071E5CFDDE007CC0E7 /* replacer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = replacer.h; path = BufMgrCPP/replacer.h; sourceTree = "<group>"; };
+		FA27D7081E5CFDDE007CC0E7 /* frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = frame.h; path = BufMgrCPP/frame.h; sourceTree = "<group>"; };
+		FA27D7091E5CFDDE007CC0E7 /* linkedframe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = linkedframe.h; path = BufMgrCPP/linkedframe.h; sourceTree = "<group>"; };
+		FA27D70A1E5CFDDE007CC0E7 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = BufMgrCPP/CMakeLists.txt; sourceTree = "<group>"; };
+		FA27D70B1E5CFDDE007CC0E7 /* linkedframe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = linkedframe.cpp; path = BufMgrCPP/linkedframe.cpp; sourceTree = "<group>"; };
+		FA27D70C1E5CFDDE007CC0E7 /* db.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = db.h; path = BufMgrCPP/db.h; sourceTree = "<group>"; };
+		FA27D70D1E5CFDDE007CC0E7 /* CMakeFiles */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CMakeFiles; path = BufMgrCPP/CMakeFiles; sourceTree = "<group>"; };
+		FA27D70E1E5CFDDE007CC0E7 /* libbtree.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbtree.a; path = BufMgrCPP/libbtree.a; sourceTree = "<group>"; };
+		FA27D70F1E5CFDDE007CC0E7 /* libglobaldefs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglobaldefs.a; path = BufMgrCPP/libglobaldefs.a; sourceTree = "<group>"; };
+		FA27D7101E5CFDDE007CC0E7 /* libjoins.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libjoins.a; path = BufMgrCPP/libjoins.a; sourceTree = "<group>"; };
+		FA27D7111E5CFDDE007CC0E7 /* libspacemgr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libspacemgr.a; path = BufMgrCPP/libspacemgr.a; sourceTree = "<group>"; };
+		FA27D7121E5CFDDE007CC0E7 /* libbufmgr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbufmgr.a; path = BufMgrCPP/libbufmgr.a; sourceTree = "<group>"; };
+		FA27D7131E5CFDDE007CC0E7 /* cmake_install.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = cmake_install.cmake; path = BufMgrCPP/cmake_install.cmake; sourceTree = "<group>"; };
+		FA27D7141E5CFDDE007CC0E7 /* join.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = join.h; path = BufMgrCPP/join.h; sourceTree = "<group>"; };
+		FA27D7151E5CFDDE007CC0E7 /* bmtest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bmtest.cpp; path = BufMgrCPP/bmtest.cpp; sourceTree = "<group>"; };
+		FA27D7161E5CFDDE007CC0E7 /* bmtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bmtest.h; path = BufMgrCPP/bmtest.h; sourceTree = "<group>"; };
+		FA27D7171E5CFDDE007CC0E7 /* boguscatalogs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = boguscatalogs.h; path = BufMgrCPP/boguscatalogs.h; sourceTree = "<group>"; };
+		FA27D7181E5CFDDE007CC0E7 /* bt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bt.h; path = BufMgrCPP/bt.h; sourceTree = "<group>"; };
+		FA27D7191E5CFDDE007CC0E7 /* btfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btfile.h; path = BufMgrCPP/btfile.h; sourceTree = "<group>"; };
+		FA27D71A1E5CFDDE007CC0E7 /* btfilescan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btfilescan.h; path = BufMgrCPP/btfilescan.h; sourceTree = "<group>"; };
+		FA27D71B1E5CFDDE007CC0E7 /* btindex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btindex.h; path = BufMgrCPP/btindex.h; sourceTree = "<group>"; };
+		FA27D71C1E5CFDDE007CC0E7 /* btleaf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btleaf.h; path = BufMgrCPP/btleaf.h; sourceTree = "<group>"; };
+		FA27D71D1E5CFDDE007CC0E7 /* btreetest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = btreetest.h; path = BufMgrCPP/btreetest.h; sourceTree = "<group>"; };
+		FA27D71E1E5CFDDE007CC0E7 /* catalog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = catalog.h; path = BufMgrCPP/catalog.h; sourceTree = "<group>"; };
+		FA27D71F1E5CFDDE007CC0E7 /* da_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = da_types.h; path = BufMgrCPP/da_types.h; sourceTree = "<group>"; };
+		FA27D7201E5CFDDE007CC0E7 /* dirpage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dirpage.h; path = BufMgrCPP/dirpage.h; sourceTree = "<group>"; };
+		FA27D7211E5CFDDE007CC0E7 /* dlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dlist.h; path = BufMgrCPP/dlist.h; sourceTree = "<group>"; };
+		FA27D7221E5CFDDE007CC0E7 /* ext_sys_defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ext_sys_defs.h; path = BufMgrCPP/ext_sys_defs.h; sourceTree = "<group>"; };
+		FA27D7231E5CFDDE007CC0E7 /* foo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = foo.h; path = BufMgrCPP/foo.h; sourceTree = "<group>"; };
+		FA27D7241E5CFDDE007CC0E7 /* hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hash.h; path = BufMgrCPP/hash.h; sourceTree = "<group>"; };
+		FA27D7251E5CFDDE007CC0E7 /* heapfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = heapfile.h; path = BufMgrCPP/heapfile.h; sourceTree = "<group>"; };
+		FA27D7261E5CFDDE007CC0E7 /* heappage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = heappage.h; path = BufMgrCPP/heappage.h; sourceTree = "<group>"; };
+		FA27D7271E5CFDDE007CC0E7 /* heaptest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = heaptest.h; path = BufMgrCPP/heaptest.h; sourceTree = "<group>"; };
+		FA27D7281E5CFDDE007CC0E7 /* ii_systemcatalogs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ii_systemcatalogs.h; path = BufMgrCPP/ii_systemcatalogs.h; sourceTree = "<group>"; };
+		FA27D7291E5CFDDE007CC0E7 /* index_scan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = index_scan.h; path = BufMgrCPP/index_scan.h; sourceTree = "<group>"; };
+		FA27D72A1E5CFDDE007CC0E7 /* index.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = index.h; path = BufMgrCPP/index.h; sourceTree = "<group>"; };
+		FA27D72B1E5CFDDE007CC0E7 /* key.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = key.h; path = BufMgrCPP/key.h; sourceTree = "<group>"; };
+		FA27D72C1E5CFDDE007CC0E7 /* listbase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = listbase.h; path = BufMgrCPP/listbase.h; sourceTree = "<group>"; };
+		FA27D72D1E5CFDDE007CC0E7 /* listnode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = listnode.h; path = BufMgrCPP/listnode.h; sourceTree = "<group>"; };
+		FA27D72E1E5CFDDE007CC0E7 /* maincatalog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = maincatalog.h; path = BufMgrCPP/maincatalog.h; sourceTree = "<group>"; };
+		FA27D72F1E5CFDDE007CC0E7 /* minirel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = minirel.h; path = BufMgrCPP/minirel.h; sourceTree = "<group>"; };
+		FA27D7301E5CFDDE007CC0E7 /* ndlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ndlist.h; path = BufMgrCPP/ndlist.h; sourceTree = "<group>"; };
+		FA27D7311E5CFDDE007CC0E7 /* new_error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = new_error.h; path = BufMgrCPP/new_error.h; sourceTree = "<group>"; };
+		FA27D7321E5CFDDE007CC0E7 /* page.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = page.h; path = BufMgrCPP/page.h; sourceTree = "<group>"; };
+		FA27D7331E5CFDDE007CC0E7 /* query.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = query.h; path = BufMgrCPP/query.h; sourceTree = "<group>"; };
+		FA27D7341E5CFDDE007CC0E7 /* relation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = relation.h; path = BufMgrCPP/relation.h; sourceTree = "<group>"; };
+		FA27D7351E5CFDDE007CC0E7 /* scan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = scan.h; path = BufMgrCPP/scan.h; sourceTree = "<group>"; };
+		FA27D7361E5CFDDE007CC0E7 /* shashfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = shashfile.h; path = BufMgrCPP/shashfile.h; sourceTree = "<group>"; };
+		FA27D7371E5CFDDE007CC0E7 /* sortedpage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sortedpage.h; path = BufMgrCPP/sortedpage.h; sourceTree = "<group>"; };
+		FA27D7381E5CFDDE007CC0E7 /* system_defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = system_defs.h; path = BufMgrCPP/system_defs.h; sourceTree = "<group>"; };
+		FA27D7391E5CFDDE007CC0E7 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = test.h; path = BufMgrCPP/test.h; sourceTree = "<group>"; };
+		FA27D73A1E5CFDDE007CC0E7 /* tuple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tuple.h; path = BufMgrCPP/tuple.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA27D6F31E5CFD64007CC0E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA27D7411E5CFDDE007CC0E7 /* libglobaldefs.a in Frameworks */,
+				FA27D7431E5CFDDE007CC0E7 /* libspacemgr.a in Frameworks */,
+				FA27D7441E5CFDDE007CC0E7 /* libbufmgr.a in Frameworks */,
+				FA27D7421E5CFDDE007CC0E7 /* libjoins.a in Frameworks */,
+				FA27D7401E5CFDDE007CC0E7 /* libbtree.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA27D6ED1E5CFD64007CC0E7 = {
+			isa = PBXGroup;
+			children = (
+				FA27D7001E5CFDDE007CC0E7 /* test.cpp */,
+				FA27D7011E5CFDDE007CC0E7 /* BufMgr1 */,
+				FA27D7021E5CFDDE007CC0E7 /* lru_queue.cpp */,
+				FA27D7031E5CFDDE007CC0E7 /* MINIBASE.DB */,
+				FA27D7041E5CFDDE007CC0E7 /* bufmgr.cpp */,
+				FA27D7051E5CFDDE007CC0E7 /* frame.cpp */,
+				FA27D7061E5CFDDE007CC0E7 /* bufmgr.h */,
+				FA27D7071E5CFDDE007CC0E7 /* replacer.h */,
+				FA27D7081E5CFDDE007CC0E7 /* frame.h */,
+				FA27D7091E5CFDDE007CC0E7 /* linkedframe.h */,
+				FA27D70A1E5CFDDE007CC0E7 /* CMakeLists.txt */,
+				FA27D70B1E5CFDDE007CC0E7 /* linkedframe.cpp */,
+				FA27D70C1E5CFDDE007CC0E7 /* db.h */,
+				FA27D70D1E5CFDDE007CC0E7 /* CMakeFiles */,
+				FA27D70E1E5CFDDE007CC0E7 /* libbtree.a */,
+				FA27D70F1E5CFDDE007CC0E7 /* libglobaldefs.a */,
+				FA27D7101E5CFDDE007CC0E7 /* libjoins.a */,
+				FA27D7111E5CFDDE007CC0E7 /* libspacemgr.a */,
+				FA27D7121E5CFDDE007CC0E7 /* libbufmgr.a */,
+				FA27D7131E5CFDDE007CC0E7 /* cmake_install.cmake */,
+				FA27D7141E5CFDDE007CC0E7 /* join.h */,
+				FA27D7151E5CFDDE007CC0E7 /* bmtest.cpp */,
+				FA27D7161E5CFDDE007CC0E7 /* bmtest.h */,
+				FA27D7171E5CFDDE007CC0E7 /* boguscatalogs.h */,
+				FA27D7181E5CFDDE007CC0E7 /* bt.h */,
+				FA27D7191E5CFDDE007CC0E7 /* btfile.h */,
+				FA27D71A1E5CFDDE007CC0E7 /* btfilescan.h */,
+				FA27D71B1E5CFDDE007CC0E7 /* btindex.h */,
+				FA27D71C1E5CFDDE007CC0E7 /* btleaf.h */,
+				FA27D71D1E5CFDDE007CC0E7 /* btreetest.h */,
+				FA27D71E1E5CFDDE007CC0E7 /* catalog.h */,
+				FA27D71F1E5CFDDE007CC0E7 /* da_types.h */,
+				FA27D7201E5CFDDE007CC0E7 /* dirpage.h */,
+				FA27D7211E5CFDDE007CC0E7 /* dlist.h */,
+				FA27D7221E5CFDDE007CC0E7 /* ext_sys_defs.h */,
+				FA27D7231E5CFDDE007CC0E7 /* foo.h */,
+				FA27D7241E5CFDDE007CC0E7 /* hash.h */,
+				FA27D7251E5CFDDE007CC0E7 /* heapfile.h */,
+				FA27D7261E5CFDDE007CC0E7 /* heappage.h */,
+				FA27D7271E5CFDDE007CC0E7 /* heaptest.h */,
+				FA27D7281E5CFDDE007CC0E7 /* ii_systemcatalogs.h */,
+				FA27D7291E5CFDDE007CC0E7 /* index_scan.h */,
+				FA27D72A1E5CFDDE007CC0E7 /* index.h */,
+				FA27D72B1E5CFDDE007CC0E7 /* key.h */,
+				FA27D72C1E5CFDDE007CC0E7 /* listbase.h */,
+				FA27D72D1E5CFDDE007CC0E7 /* listnode.h */,
+				FA27D72E1E5CFDDE007CC0E7 /* maincatalog.h */,
+				FA27D72F1E5CFDDE007CC0E7 /* minirel.h */,
+				FA27D7301E5CFDDE007CC0E7 /* ndlist.h */,
+				FA27D7311E5CFDDE007CC0E7 /* new_error.h */,
+				FA27D7321E5CFDDE007CC0E7 /* page.h */,
+				FA27D7331E5CFDDE007CC0E7 /* query.h */,
+				FA27D7341E5CFDDE007CC0E7 /* relation.h */,
+				FA27D7351E5CFDDE007CC0E7 /* scan.h */,
+				FA27D7361E5CFDDE007CC0E7 /* shashfile.h */,
+				FA27D7371E5CFDDE007CC0E7 /* sortedpage.h */,
+				FA27D7381E5CFDDE007CC0E7 /* system_defs.h */,
+				FA27D7391E5CFDDE007CC0E7 /* test.h */,
+				FA27D73A1E5CFDDE007CC0E7 /* tuple.h */,
+				FA27D6F81E5CFD64007CC0E7 /* BufMgrCPP */,
+				FA27D6F71E5CFD64007CC0E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA27D6F71E5CFD64007CC0E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA27D6F61E5CFD64007CC0E7 /* BufMgrCPP */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA27D6F81E5CFD64007CC0E7 /* BufMgrCPP */ = {
+			isa = PBXGroup;
+			children = (
+				FA27D6F91E5CFD64007CC0E7 /* main.cpp */,
+			);
+			path = BufMgrCPP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA27D6F51E5CFD64007CC0E7 /* BufMgrCPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA27D6FD1E5CFD64007CC0E7 /* Build configuration list for PBXNativeTarget "BufMgrCPP" */;
+			buildPhases = (
+				FA27D6F21E5CFD64007CC0E7 /* Sources */,
+				FA27D6F31E5CFD64007CC0E7 /* Frameworks */,
+				FA27D6F41E5CFD64007CC0E7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BufMgrCPP;
+			productName = BufMgrCPP;
+			productReference = FA27D6F61E5CFD64007CC0E7 /* BufMgrCPP */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA27D6EE1E5CFD64007CC0E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Alex Zabrodskiy";
+				TargetAttributes = {
+					FA27D6F51E5CFD64007CC0E7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FA27D6F11E5CFD64007CC0E7 /* Build configuration list for PBXProject "BufMgrCPP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA27D6ED1E5CFD64007CC0E7;
+			productRefGroup = FA27D6F71E5CFD64007CC0E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA27D6F51E5CFD64007CC0E7 /* BufMgrCPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA27D6F21E5CFD64007CC0E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA27D73F1E5CFDDE007CC0E7 /* linkedframe.cpp in Sources */,
+				FA27D6FA1E5CFD64007CC0E7 /* main.cpp in Sources */,
+				FA27D73E1E5CFDDE007CC0E7 /* frame.cpp in Sources */,
+				FA27D73C1E5CFDDE007CC0E7 /* lru_queue.cpp in Sources */,
+				FA27D73D1E5CFDDE007CC0E7 /* bufmgr.cpp in Sources */,
+				FA27D7451E5CFDDE007CC0E7 /* bmtest.cpp in Sources */,
+				FA27D73B1E5CFDDE007CC0E7 /* test.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA27D6FB1E5CFD64007CC0E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA27D6FC1E5CFD64007CC0E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA27D6FE1E5CFD64007CC0E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BufMgrCPP",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA27D6FF1E5CFD64007CC0E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BufMgrCPP",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA27D6F11E5CFD64007CC0E7 /* Build configuration list for PBXProject "BufMgrCPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA27D6FB1E5CFD64007CC0E7 /* Debug */,
+				FA27D6FC1E5CFD64007CC0E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA27D6FD1E5CFD64007CC0E7 /* Build configuration list for PBXNativeTarget "BufMgrCPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA27D6FE1E5CFD64007CC0E7 /* Debug */,
+				FA27D6FF1E5CFD64007CC0E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA27D6EE1E5CFD64007CC0E7 /* Project object */;
+}
